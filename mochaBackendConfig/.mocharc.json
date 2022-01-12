@@ -1,0 +1,9 @@
+{
+  "diff": true,
+  "extension": ["ts", "js"],
+  "package": "../package.json",
+  "reporter": "spec",
+  "timeout": 10000,
+  "file": ["./mochaBackendConfig/setup/index.js"],
+  "exclude": "node_modules/**/*"
+}

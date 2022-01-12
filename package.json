@@ -1,0 +1,15 @@
+{
+  "name": "code-interview-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --watch --config=./mochaBackendConfig/.mocharc.json --recursive --timeout 999999  \"index.test.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "mocha": "^9.0.3"
+  }
+}
